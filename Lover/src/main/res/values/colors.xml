@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWelcomeBg">#7EC0EE</color>
+    <color name="colorEnterBtn">#ff33b5e5</color>
+    <color name="colorTopStart">#ff3097da</color>
+    <color name="colorTopEnd">#ff3097ff</color>
+    <color name="transparentGrey">#1f000000</color>
+    <color name="tabTitleTextColor">#B3EE3A</color>
+    <color name="grey_progress">#88000000</color>
+    <color name="grey_background">#44000000</color>
+    <color name="holo_blue">#FF33E5B5</color>
+
+</resources>

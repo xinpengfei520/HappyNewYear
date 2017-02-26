@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ListView
+        android:id="@+id/fragment_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <TextView
+        android:id="@+id/fragment_tv_nomedia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="没有发现视频"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

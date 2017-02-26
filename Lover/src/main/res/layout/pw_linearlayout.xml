@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="360dp"
+    android:layout_height="135dp"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="10dp"
+    android:background="@drawable/local_popup_bg1"
+    android:orientation="vertical"
+    android:paddingLeft="10dp">
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这里藏着我的许多秘密"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击开始挖掘"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="赶快来发现我的另一面吧~"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+
+
+</LinearLayout>

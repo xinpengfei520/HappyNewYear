@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/try5"
+    tools:context="com.xpf.happynewyear.MainActivity">
+
+    <!--在布局中使用自定义View-->
+    <com.xpf.happynewyear.view.GiftView
+        android:id="@+id/gift"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--跑马灯效果-->
+    <com.xpf.happynewyear.view.MyTextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="Happy New Year！辛鹏飞在这里祝大家新年快乐，万事如意，心想事成，开心快乐每一天~"
+        android:textColor="#FF0000"
+        android:textSize="18sp" />
+
+</RelativeLayout>
